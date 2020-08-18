@@ -1,0 +1,10 @@
+The Secret World of Arrietty,Mirai Shida / Ryunosuke Kamiki,Hayao Miyazaki,10/10,Animation,Critically Acclaimed,A smol girl goes on a big adventure,15,/src/AddMovie/Posters/secretworldofarrietty.png
+Spirited Away,Haku Jason Marsden / Miyu Irino,Hayao Miyazaki,9/10,Animation,Pretty Good,Stealing food makes you a pig,20,/src/AddMovie/Posters/spiritedaway.png
+The Cat Returns,Chizuru Ikewaki / Yoshihiko Hakamada,Hayao Miyazaki,8/10,Animation,Cute Cats,Cat's have secret magical worlds,30,/src/AddMovie/Posters/thecatreturns.png
+When Marnie Was There,Sara Takatsuki / Kasumi Arimura,Hayao Miyazaki,10/10,Animation,Loved the story,Oh boy.. this gets sad,15,/src/AddMovie/Posters/whenmarniewasthere.png
+Porco Rosso,Tokiko Kato / Shūichirō Moriyama,Hayao Miyazaki,9/10,Animation,Keeps you interested,When pigs fly,10,/src/AddMovie/Posters/porcorosso.png
+Ponyo,Yuria Nara / Hiroki Doi,Hayao Miyazaki,10/10,Animation,Amazing artwork,The cutest movie ever created,40,/src/AddMovie/Posters/ponyo.png
+Only Yesterday,Miki Imai / Yōko Honna,Hayao Miyazaki,10/10,Animation,Intriguing story,Reminiscing at its best,25,/src/AddMovie/Posters/onlyyesterday.png
+My Neighbour Totoro,Mei Kusakabe / Satsuki Kusakabe,Hayao Miyazaki,10/10,Animation,Good for kids,Second cutest movie ever made,15,/src/AddMovie/Posters/myneighbourtotoro.png
+Howl's Moving Castle,Izumi Matsuoka / Hiroki Tanaka,Hayao Miyazaki,8/10,Animation,It's alright,Tbh Howl looks like a girl,10,/src/AddMovie/Posters/howlsmovingcastle.png
+Castle In The Sky,Mayumi Tanaka / Keiko Yokozawa,Hayao Miyazaki,8/10,Animation,Has some fun elements,There's a castle..in the sky,15,/src/AddMovie/Posters/castleinthesky.png

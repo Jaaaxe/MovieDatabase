@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="900.0" style="-fx-background-color: #f7f7f7; -fx-border-color: #333; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Genres.GenreController">
+    <children>
+        <AnchorPane prefHeight="113.0" prefWidth="900.0" style="-fx-background-color: #333;">
+            <children>
+                <Label fx:id="genre" layoutX="161.0" layoutY="36.0" prefHeight="43.0" prefWidth="243.0" text="Genre" textFill="#f7f7f7">
+                    <font>
+                        <Font name="Avenir Book" size="30.0" />
+                    </font>
+                </Label>
+                <Button layoutX="89.0" layoutY="35.0" mnemonicParsing="false" onAction="#back" prefHeight="23.0" prefWidth="72.0" style="-fx-background-color: #333;" text="«" textFill="#f7f7f7">
+                    <font>
+                        <Font name="Avenir Next Bold" size="40.0" />
+                    </font>
+                    <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                    </padding>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Label contentDisplay="CENTER" layoutX="614.0" layoutY="60.0" prefHeight="23.0" prefWidth="62.0" text="Balance: " textAlignment="CENTER" textFill="#f7f7f7">
+                    <font>
+                        <Font name="Avenir Book" size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="balance" contentDisplay="CENTER" layoutX="676.0" layoutY="60.0" prefHeight="23.0" prefWidth="109.0" text="Bal" textAlignment="CENTER" textFill="#f7f7f7">
+                    <font>
+                        <Font name="Avenir Book" size="15.0" />
+                    </font>
+                </Label>
+                <Label contentDisplay="CENTER" layoutX="614.0" layoutY="27.0" prefHeight="23.0" prefWidth="62.0" text="Hello" textAlignment="CENTER" textFill="#f7f7f7">
+                    <font>
+                        <Font name="Avenir Book" size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="username" contentDisplay="CENTER" layoutX="655.0" layoutY="27.0" prefHeight="23.0" prefWidth="206.0" text="Name" textAlignment="CENTER" textFill="#f7f7f7">
+                    <font>
+                        <Font name="Avenir Book" size="15.0" />
+                    </font>
+                </Label>
+                <Button layoutX="788.0" layoutY="55.0" mnemonicParsing="false" onAction="#reload" prefHeight="0.0" prefWidth="72.0" style="-fx-background-color: #f7f7f7;" text="Reload" textFill="#333333">
+                    <font>
+                        <Font name="Avenir Book" size="13.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </AnchorPane>
+      <GridPane alignment="CENTER" layoutX="52.0" layoutY="149.0" prefHeight="516.0" prefWidth="797.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="150.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="150.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="150.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="150.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="150.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="210.0" prefHeight="30.0" valignment="TOP" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="210.0" prefHeight="30.0" valignment="TOP" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie1" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <image>
+                  <Image url="@../AddMovie/Posters/secretworldofarrietty.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie2" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../AddMovie/Posters/spiritedaway.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie3" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../AddMovie/Posters/thecatreturns.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie4" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@../AddMovie/Posters/whenmarniewasthere.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+               <image>
+                  <Image url="@../AddMovie/Posters/porcorosso.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie6" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../AddMovie/Posters/ponyo.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="146.0" onMouseClicked="#movie10" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../AddMovie/Posters/castleinthesky.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie9" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../AddMovie/Posters/howlsmovingcastle.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie8" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../AddMovie/Posters/myneighbourtotoro.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="133.0" onMouseClicked="#movie7" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../AddMovie/Posters/onlyyesterday.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="56.0" prefWidth="136.0" text="THE SECRET WORLD OF ARIETTY" textAlignment="CENTER" wrapText="true" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="SPIRITED AWAY" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="THE CAT RETURNS" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="WHEN MARNIE WAS THERE" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="3" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="PORCO ROSSO" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="4" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="PONYO" textAlignment="CENTER" wrapText="true" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="ONLY YESTERDAY" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="MY NEIGHBOUR TOTORO" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="CASTLE IN THE SKY" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="136.0" text="HOWL'S MOVING CASTLE" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Avenir Book" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+         </children>
+      </GridPane>
+    </children>
+</AnchorPane>
